@@ -1,0 +1,12 @@
+class [plant]
+1. stem_height (float)
+2. location (string)
+3. root_length (float)
+4. leaf_number (integer)
+5. mitochondria_performance_active (boolean)
+
+class [plant]
+add_water (modifies stem_height, root_length)
+move_to_sunlight (activates mitochondria_performance_active)
+plant_grows (modifies leaf_size, stem_height, root_length)
+plant_dies (modifies mitochondria_performance_active boolean = false)
