@@ -1,4 +1,5 @@
 class [plant]
+attributes
 1. stem_height (float)
 2. location (string)
 3. root_length (float)
@@ -6,7 +7,22 @@ class [plant]
 5. mitochondria_performance_active (boolean)
 
 class [plant]
+methods
 add_water (modifies stem_height, root_length)
 move_to_sunlight (activates mitochondria_performance_active)
 plant_grows (modifies leaf_size, stem_height, root_length)
 plant_dies (modifies mitochondria_performance_active boolean = false)
+
+class [dog]
+attributes
+1. is_hungry (boolean)
+2. is_tired (boolean)
+3. breed (string)
+4. age (string)
+5. is_happy (boolean)
+
+methods [dog]
+1. feed_dog (changes boolean true to false for is_hungry; adds numerical value to age)
+2. walk_dog (changes boolean false to true for is_tired; changes boolean false to true for is_hungry)
+3. play_with_dog (Changes is_happy to true)
+4. create_tag (uses breed for data)
