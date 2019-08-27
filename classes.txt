@@ -25,4 +25,4 @@ methods [dog]
 1. feed_dog (changes boolean true to false for is_hungry; adds numerical value to age)
 2. walk_dog (changes boolean false to true for is_tired; changes boolean false to true for is_hungry)
 3. play_with_dog (Changes is_happy to true)
-4. create_tag (uses breed for data)
+4. create_tag (uses breed and age for data)
