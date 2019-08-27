@@ -1,0 +1,29 @@
+object plant:
+
+Attributes:
+1. stem_height (3.4 inches)
+2. location "outdoor deck"
+3. root_length (2.2, 1.7, 1.3)
+4. leaf_number (14)
+5. mitochondria_performance_active = true
+
+Methods:
+1. add_water: (stem_height + x, root_length + x)
+2. move_to_sunlight: location = "Inside house"
+3. plant_grows: boolean=true; leaf_size + x; stem_height + x; root_length + x
+4. plant_dies: boolean = false;
+
+object dog:
+
+Attributes:
+1. is_hungry = false
+2. is_tired = true
+3. breed "beagle"
+4. age "6"
+5. is_happy = true
+
+Methods:
+1. feed_dog (boolean is_hungry = false)
+2. walk_dog (boolean is_tired = true; is_hungry = true)
+3. play_with_dog (boolean is_happy = true; is_tired = true)
+4. tag_name "beagle, 6"
